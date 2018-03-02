@@ -1,3 +1,103 @@
+/* Universal */
 html {
   font-size: 16px;
+}
+
+li {
+  display: inline-block;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+img {
+  display: block;
+}
+
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.background-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Header */
+header {
+  border-bottom: 2px solid black;
+  width: 100%;
+  z-index: 2;
+}
+
+nav {
+  border-top: 2px solid black;
+  padding: 2rem 3rem;
+}
+
+nav ul {
+  justify-content: flex-end;
+}
+
+nav li {
+  margin-left: 3rem;
+}
+
+#logo {
+  height: 10rem;
+  width: 20%;
+  margin: 2rem auto;
+  align-items: center;
+  background-image: url("#");
+  justify-content: center;
+  border: 1px solid black;
+}
+
+/* Main Body */
+section {
+  padding: 3rem 4rem;
+}
+
+.subjects {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.subject {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  height: 20rem;
+  width: 32%;
+  margin: 1rem 0;
+}
+
+.subject img {
+  margin: 1rem auto 0;
+  width: 24rem;
+  height: 16rem;
+  border: 1px solid black;
+}
+
+.subject span {
+  display: block;
+  text-align: center;
+  padding: 1rem 3rem;
+}
+
+#jumbotron {
+  background-image: url("#");
+  width: 100%;
+}
+
+/* Footer */
+footer {
+  border-top: 2px solid black;
+  height: 15rem;
 }
