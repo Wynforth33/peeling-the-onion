@@ -11,6 +11,10 @@ h1 {
   font-size: 2rem;
 }
 
+h3 {
+  font-size: 1.5rem;
+}
+
 img {
   display: block;
 }
@@ -59,6 +63,10 @@ nav li {
   border: 1px solid black;
 }
 
+#logo h3 {
+  margin: 1rem 0;
+}
+
 /* Main Body */
 section {
   padding: 3rem 4rem;
@@ -73,7 +81,7 @@ section {
   display: flex;
   flex-direction: column;
   border: 1px solid black;
-  height: 20rem;
+  height: 20.5rem;
   width: 32%;
   margin: 1rem 0;
 }
@@ -85,7 +93,7 @@ section {
   border: 1px solid black;
 }
 
-.subject span {
+.subject h3 {
   display: block;
   text-align: center;
   padding: 1rem 3rem;
